@@ -40,7 +40,7 @@ function reducer(state = [] ,action)
             }
         }
 
-        case "delete": // if you want to update
+        case "delete": // if you want to delete
         {
             if(action.payload[2]=='categories')
             {
